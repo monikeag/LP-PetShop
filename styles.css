@@ -1,3 +1,5 @@
+/*estilo geral*/
+
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +9,129 @@
 }
 
 body {
-   
     height: 100vh;
     
 }
+.interface {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 /*estilo do menu*/
+header {
+    padding: 40px 30%;
+}
 
+header >.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+header a {
+    color: #686060;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px ;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    
+
+}
+.bt-contato button {
+    border-radius: 15px;
+    background: #8CB3AF;
+    box-shadow: 5px 4px 7px 0px rgba(0, 0, 0, 0.25) inset;
+    border: none;
+    padding: 10px 25px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    
+   
+}
 
 /*estilo Topo*/
+section.topo-site {
+    padding: 50px 7%;    
+    
+}
+
+section >.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15%;
+}
+
+
+h1 {
+    font-family: "bangers" ;
+    color: #FFAE12;
+    font-size: 70px;
+    
+    
+} 
+h2 {
+    font-family: "bangers" ;
+    color: #686060;
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+.txt-p {
+    padding-bottom: 30px;
+}
+
+
+.bt-saiba-mais {   
+    border-radius: 15px;
+    background: #FFAE12;
+    box-shadow: 5px 4px 7px 0px rgba(0, 0, 0, 0.25) inset;
+    border: none;
+    padding: 10px 35px;
+    color: aliceblue;    
+    font-size: 20px;
+    cursor: pointer;       
+       
+}
+
+/* estilo sobre nós*/
+section.sobre-nos {
+    padding: 30px 7%;
+    background-color: #8CB3AF;
+    
+    
+}
+.img-sobre {
+    padding-top: 30px;
+}
+h1.txt-nos {
+    text-align: center;
+}
+
+h1 span {    
+    color: aliceblue;
+    font-family: "bangers";
+    
+}
+
+/*estilo serviços */
+
+section.servicos {
+    padding: 50px 7%;
+
+}
+
+
+
