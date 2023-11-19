@@ -10,13 +10,16 @@
 
 body {
     height: 100vh;
+    background-size:cover
+    
+    
     
 }
 .interface {
     max-width: 1250px;
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 
@@ -71,7 +74,7 @@ section >.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 15%;
+    gap: 10%;
 }
 
 
@@ -87,6 +90,7 @@ h2 {
     color: #686060;
     font-size: 30px;
     padding-bottom: 10px;
+    
 
 }
 .txt-p {
@@ -108,30 +112,106 @@ h2 {
 
 /* estilo sobre nós*/
 section.sobre-nos {
-    padding: 30px 7%;
+    padding: 40px 7%;
     background-color: #8CB3AF;
-    
-    
+        
 }
-.img-sobre {
-    padding-top: 30px;
-}
-h1.txt-nos {
+section.sobre-nos h1 {
     text-align: center;
-}
+    padding-top: 30px;
 
+}
+ 
+    
 h1 span {    
     color: aliceblue;
     font-family: "bangers";
     
 }
+.flex {
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+.quadrado {   
+    background-color: antiquewhite;
+    justify-content: center;
+    text-align: left;
+    border-radius: 30px 0 30px 0;
+    padding: 30px ;
+}
+.quadrado p {
+    padding: 40px 10px;
+    border-left: solid;
+    border-color: #ffad14;
+    border-top: 10px;    
+    font-size: 20px;
+       
+}
 
 /*estilo serviços */
-
-section.servicos {
-    padding: 50px 7%;
+section.servicos h1 {
+    text-align: center;
+    padding-top: 30px;
 
 }
+
+
+
+.flex {
+    display: flex;
+    gap: 20%;
+    
+}
+section.servicos {
+    padding: 60px 7%;
+    
+
+}
+.box-servico {
+    margin-left: 40px;
+}
+
+.box-servico ul {
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 10 10"><circle fill="orange" cx="7" cy="7" r="2"/></svg>');
+    
+}
+li {
+    font-size: 20px;
+    color: #686060;
+    padding-left: 20px;
+}
+.box-servico ul li {
+    align-items: center;
+    justify-items: center;
+}
+    
+
+/*Footer*/
+
+section.footer {
+    background-color: #8CB3AF;
+    
+}
+.box-footer h4{
+    justify-content: center;
+   text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+    
+    
+   
+    
+   
+    
+
+
+
+
+
+
 
 
 
