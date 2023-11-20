@@ -217,7 +217,17 @@ section.footer {
     color: aliceblue;
     padding: 20px;
 }
+
+   
+body, html {
+    overflow-x: hidden !important;
+    }
     
+@media (max-width: 786px){
+    body, html {
+    overflow-x: hidden!important;
+    }
+    }
     
    
     
