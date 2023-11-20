@@ -3,6 +3,6 @@
 
 <img src="https://github.com/monikeag/LP-PetShop/blob/main/Imagens/PetShop%20capa.jpg?raw=true"/>
 
-Veja também pelo meu <img src="https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white" <a href="https://www.behance.net/guiamarke"/>
+Veja também pelo meu <a href="https://www.behance.net/guiamarke"<img src="https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white" /></a>
 
 
