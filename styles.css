@@ -61,12 +61,19 @@ header nav ul li {
     font-size: 15px;
     cursor: pointer;
     
+    
    
+}
+
+.bt-contato button:hover {
+    box-shadow: 8px 6px 7px 0px #0000008a;
+    
+
 }
 
 /*estilo Topo*/
 section.topo-site {
-    padding: 50px 7%;    
+    padding: 40px 6%;    
     
 }
 
@@ -108,6 +115,10 @@ h2 {
     font-size: 20px;
     cursor: pointer;       
        
+}
+.bt-saiba-mais:hover {
+    color: #686060;
+    background-color: #ffad1494 (255, 173, 20, 0.733);
 }
 
 /* estilo sobre nós*/
@@ -177,14 +188,19 @@ section.servicos {
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 10 10"><circle fill="orange" cx="7" cy="7" r="2"/></svg>');
     
 }
+ul {
+    padding-bottom: 30px;
+}
 li {
     font-size: 20px;
     color: #686060;
     padding-left: 20px;
+    
 }
 .box-servico ul li {
     align-items: center;
     justify-items: center;
+    padding-bottom: 10px;
 }
     
 
