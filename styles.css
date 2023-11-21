@@ -223,11 +223,39 @@ body, html {
     overflow-x: hidden !important;
     }
     
-@media (max-width: 786px){
-    body, html {
-    overflow-x: hidden!important;
+@media screen and (max-width:1040px){
+    header {
+        display: none;
     }
+    
+    .img-topo img{
+        width:344px ;
+        height:354px ;
     }
+    
+    h1 {
+        font-family: "bangers" ;
+        color: #FFAE12;
+        font-size: 40px;        
+        
+    } 
+
+    h2 {
+        font-family: "bangers" ;
+        color: #686060;
+        font-size: 20px;
+        padding-bottom: 10px;
+        
+    
+    }
+    section >.interface {
+        display: inline;
+       
+    }
+}
+
+    
+
     
    
     
