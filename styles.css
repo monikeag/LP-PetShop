@@ -236,14 +236,14 @@ body, html {
     h1 {
         font-family: "bangers" ;
         color: #FFAE12;
-        font-size: 40px;        
+        font-size: 60px;        
         
     } 
 
     h2 {
         font-family: "bangers" ;
         color: #686060;
-        font-size: 20px;
+        font-size: 30px;
         padding-bottom: 10px;
         
     
@@ -251,6 +251,24 @@ body, html {
     section >.interface {
         display: inline;
        
+    }
+
+    .flex {
+        display: inline-block;
+        gap: 20%;
+        
+    }
+    .img-txt img{
+        width:344px ;
+        height:354px ;
+        padding-bottom: 20px;
+    }
+
+    .img-gato img{
+        width:344px ;
+        height:354px ;
+        padding-bottom: 20px;
+       padding-top: 40px;
     }
 }
 
